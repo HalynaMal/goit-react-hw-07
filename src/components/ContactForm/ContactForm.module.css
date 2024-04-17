@@ -1,0 +1,32 @@
+.formBox {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
+
+.btn {
+  width: auto;
+  margin: 0 auto;
+  padding: 0.6em;
+}
+
+.labelText {
+  font-weight: 600;
+}
+
+.inputForm {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field {
+  font-size: 20px;
+  height: auto;
+}
+
