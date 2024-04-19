@@ -2,8 +2,8 @@ import { FaPhoneFlip } from "react-icons/fa6";
 import { FaUserLarge } from "react-icons/fa6";
 import css from "./Contact.module.css";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice";
-
+//import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 
 const Contact = ({ contact }) => {
   const dispatch = useDispatch();
@@ -15,7 +15,7 @@ const Contact = ({ contact }) => {
           <span className={css.icon}>
             <FaUserLarge />
           </span>
-          {name}
+          {contact.name}
         </p>
         <p className={css.pText}>
           <span className={css.icon}>
